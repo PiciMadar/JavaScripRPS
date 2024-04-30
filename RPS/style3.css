@@ -1,0 +1,48 @@
+.con{
+    background-color: wheat;
+    border: 2px solid rgb(209, 189, 150);
+    border-radius: 15px;
+    color:rgb(107, 98, 78);
+    margin: 0 auto;
+    width: 20em;
+    padding: 2em;
+    text-align: center;
+}
+
+button{
+    border: 2px solid rgb(61, 61, 60);
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    color: rgb(107, 98, 78);
+
+    padding: 0.5em;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
+}
+
+button:hover{
+    background-color: rgb(61, 61, 60);
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+
+img{
+    width: 5em;
+    height: 5em;
+    margin: 0.5em;
+}
+
+.kep_hover:hover{
+    border: 3px solid red;
+    border-radius: 70px;
+    width: 6em;
+    height: 6em;
+    box-shadow: inset 2px 2px 20px ;
+}
+
+.olloimg{
+    width: 2em;
+    height: 2em;
+}
+
