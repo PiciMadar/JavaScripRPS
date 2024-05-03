@@ -3,6 +3,8 @@ let valasztottemar = false;
 let kepeklista = ["rock-2556896_1280.png","pngtree-stylish-ripped-torn-paper-texture-background-transparent-png-image_8797582.png","680ce8a9cf105b860fb74c8690d9f1bc.png"]
 let eredmenytxt = document.getElementById("eredmenyid")
 let streak = 0
+let ppont = 0;
+let epont = 0;
 let streakir = document.getElementById("overallpontid")
 
 function valasztas(valasztott){
@@ -37,10 +39,12 @@ function playB(){
         if(pValasztott === 0 & randomszam === 1){
             eredmenytxt.innerHTML = "Vesztettél!"
             streak = 0;
+            epont++;
         }
         else if(pValasztott === 0 & randomszam === 2){
             eredmenytxt.innerHTML = "Nyertél"
             streak++;
+            ppont++;
         }
         else if(pValasztott === 0 & randomszam === 0){
             eredmenytxt.innerHTML = "Döntetlen"
@@ -48,10 +52,12 @@ function playB(){
         if(pValasztott === 1 & randomszam === 2){
             eredmenytxt.innerHTML = "Vesztettél!"
             streak = 0;
+            epont++;
         }
         else if(pValasztott === 1 & randomszam === 0){
             eredmenytxt.innerHTML = "Nyertél"
             streak++;
+            ppont++;
         }
         else if(pValasztott === 1 & randomszam === 1){
             eredmenytxt.innerHTML = "Döntetlen"
@@ -59,10 +65,12 @@ function playB(){
         if(pValasztott === 2 & randomszam === 0){
             eredmenytxt.innerHTML = "Vesztettél!"
             streak = 0;
+            epont++;
         }
         else if(pValasztott === 2 & randomszam === 1){
             eredmenytxt.innerHTML = "Nyertél"
             streak++;
+            ppont++;
         }
         else if(pValasztott === 2 & randomszam === 2){
             eredmenytxt.innerHTML = "Döntetlen"
@@ -70,6 +78,8 @@ function playB(){
         document.getElementById("rematchBid").style.display = "unset"
     }
     streakir.innerHTML = streak;
+    document.getElementById("ppont").innerHTML = ppont;
+    document.getElementById("apont").innerHTML = epont;
 }
 
 function rematch(){
