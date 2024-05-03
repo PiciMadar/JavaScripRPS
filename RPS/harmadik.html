@@ -12,17 +12,33 @@
         <h1>Kő - Papír - Olló</h1>
         <h3>Válassz!</h3>
         <div class="kepek">
-            <img onclick="valasztas(0)" id="0" class="kep_hover" src="/2024.04.09/rock-2556896_1280.png" alt="" srcset="">
-            <img onclick="valasztas(1)" id="1" class="kep_hover" src="/2024.04.09/white-torn-paper-isolated-on-a-transparent-background-png.webp" alt="" srcset="">
-            <img onclick="valasztas(2)" id="2" class="kep_hover" src="/2024.04.09/680ce8a9cf105b860fb74c8690d9f1bc.png" id="olloimg" alt="" srcset="">
+            <img onclick="valasztas(0)" id="0" class="kepclass" src="rock-2556896_1280.png" alt="" srcset="">
+            <img onclick="valasztas(1)" id="1" class="kepclass" src="pngtree-stylish-ripped-torn-paper-texture-background-transparent-png-image_8797582.png" alt="" srcset="">
+            <img onclick="valasztas(2)" id="2" class="kepclass" src="680ce8a9cf105b860fb74c8690d9f1bc.png" id="olloimg" alt="" srcset="">
         </div>
         <br>
-        <button id="playB">Választás!</button>
+        <div id="gombokdiv">
+            <button onclick="playB()" id="playBid">Választás!</button>
+            <button onclick="cancel()" id="cancelBid">Visszavonás</button>
+        </div>
 
+        <h3>Gép választása:</h3>
+        
+        <img id="gepkep" src="kérdőjelpng.png" alt="">
+        
+        <h3 id="eredmenyid">(eredmény)</h3>
 
+        <button onclick="rematch()" id="rematchBid">Új játék!</button>
 
     </div>
 
+    <div id="adatok">
+        <div id="overallsc">
+            <h3>Win streak:</h3>
+            <h3 id="overallpontid">0</h3>
+        </div>    
+    </div>
+    
     <script src="harmadik.js"></script>
 
 </body>

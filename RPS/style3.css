@@ -1,12 +1,18 @@
 .con{
     background-color: wheat;
-    border: 2px solid rgb(209, 189, 150);
+    border:1vh solid rgb(209, 189, 150);
     border-radius: 15px;
     color:rgb(107, 98, 78);
     margin: 0 auto;
-    width: 20em;
-    padding: 2em;
+    width: 50vh;
+    height: 70vh;
+    padding: 1vh;
     text-align: center;
+}
+
+#rematchBid{
+    display: none;
+    justify-content: space-around;
 }
 
 button{
@@ -15,9 +21,9 @@ button{
     border-radius: 15px;
     color: rgb(107, 98, 78);
 
-    padding: 0.5em;
-    padding-left: 1.8em;
-    padding-right: 1.8em;
+    padding: 0.5vh;
+    padding-left: 1.8vh;
+    padding-right: 1.8vh;
 }
 
 button:hover{
@@ -26,23 +32,33 @@ button:hover{
     color: rgb(255, 255, 255);
 }
 
-
-img{
-    width: 5em;
-    height: 5em;
-    margin: 0.5em;
+#adatok{
+    text-align: center;
+    margin: 0 auto;
+    width: 20vh;
 }
 
-.kep_hover:hover{
-    border: 3px solid red;
-    border-radius: 70px;
-    width: 6em;
-    height: 6em;
-    box-shadow: inset 2px 2px 20px ;
+#overallsc{
+    display: flex;
+    column-gap: 10%;
+}
+
+img{
+    width: 10vh;
+    height: 10vh;
+    margin: 0.5vh;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.4em;
 }
 
 .olloimg{
-    width: 2em;
-    height: 2em;
+    width: 2vh;
+    height: 2vh;
 }
 
