@@ -1,2 +1,2 @@
 # JavaScripRPS
-https://picimadar.github.io/JavaScripRPS/RPS/harmadik.html
+https://picimadar.github.io/JavaScripRPS/RPS/index.html
