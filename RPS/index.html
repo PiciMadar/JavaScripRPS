@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kő, papír, olló</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="con">
+        <h1>Kő - Papír - Olló</h1>
+        <h3>Válassz!</h3>
+        <div class="kepek">
+            <img onclick="valasztas(0)" id="0" class="kepclass" src="rock-2556896_1280.png" alt="" srcset="">
+            <img onclick="valasztas(1)" id="1" class="kepclass" src="pngtree-stylish-ripped-torn-paper-texture-background-transparent-png-image_8797582.png" alt="" srcset="">
+            <img onclick="valasztas(2)" id="2" class="kepclass" src="680ce8a9cf105b860fb74c8690d9f1bc.png" id="olloimg" alt="" srcset="">
+        </div>
+        <br>
+        <div id="gombokdiv">
+            <button onclick="playB()" id="playBid">Választás!</button>
+            <button onclick="cancel()" id="cancelBid">Visszavonás</button>
+        </div>
+
+        <h3>Gép választása:</h3>
+        
+        <img id="gepkep" src="kérdőjelpng.png" alt="">
+        
+        <h3 id="eredmenyid">(eredmény)</h3>
+
+        <button onclick="rematch()" id="rematchBid">Új játék!</button>
+
+        <div id="adatok">
+            <div>
+                <h3>Streak</h3>
+                <h3 id="overallpontid">0</h3>
+            </div>
+            <div> 
+                <h3>Pontszámod</h3>
+                <h3 id="ppont">0</h3>
+            </div>
+            <div>
+                <h3>G.Pontszáma</h3>
+                <h3 id="apont">0</h3>
+            </div>
+
+        </div>
+    </div>
+
+
+    
+    <script src="harmadik.js"></script>
+
+</body>
+</html>
