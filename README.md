@@ -1,2 +1,2 @@
 # JavaScripRPS
-http://127.0.0.1:5500/JavaScripRPS/RPS/harmadik.html
+https://picimadar.github.io/JavaScripRPS/RPS/harmadik.html
